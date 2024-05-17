@@ -1,0 +1,119 @@
+/* DisplayMedicine.css */
+
+.main_container {
+  display: block;
+  width: 70%;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 1px 1px 20px gray, -1px -1px 20px gray;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(
+    to left,
+    rgb(189, 233, 233, 0.4),
+    rgba(253, 253, 253, 0.3)
+  );
+  border-radius: 20px;
+}
+
+.D_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.D_details {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 14px 5px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.forms,
+.strength,
+.packaging {
+  display: flex;
+  margin-top: 2px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+.forms.btn {
+  margin: 0;
+}
+
+.forms button,
+.strength span,
+.packaging span {
+  padding: 4px 8px;
+
+  margin: 8px 5px;
+  border: 1px dashed gray;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+button.selected,
+span.selected {
+  color: black;
+  border: 2px solid teal;
+  box-shadow: 1px 1px 5px rgb(82, 230, 148), -1px -1px 5px rgb(125, 247, 76);
+}
+
+.more-button {
+  color: blue;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px;
+  outline: none;
+  border: none;
+  margin: 4px 5px;
+}
+
+.D_Dynamic_data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.D_Dynamic_data span {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: blue;
+}
+
+.salt_name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.D_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  border: 0.5px solid black;
+  width: 100px;
+}
